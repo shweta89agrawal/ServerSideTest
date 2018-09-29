@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: sainburys-product
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Shweta
+Implementation-Vendor-Id: org.sainsburys.retail
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/sainburys-pr
+ oduct/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
