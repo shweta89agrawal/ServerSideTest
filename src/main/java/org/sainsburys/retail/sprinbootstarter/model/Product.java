@@ -1,8 +1,5 @@
 package org.sainsburys.retail.sprinbootstarter.model;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Product {
 	String title;
 	long kcal_per_100g;
