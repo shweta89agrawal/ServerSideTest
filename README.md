@@ -10,7 +10,11 @@ The URI to access this resource on server:
 http://localhost:8080/products
 
 This application holds a service oriented architecture having
-	1. A RestController class o 
+	1. A RestController class having endpoint for GET request.
+	2. ProductService.java acts as service layer for all the business logic implementation and interaction with DAO layer.
+	3. ProductDetailsDAO.java is the data layer with interacts with products.csv and fetches the data in comma separated format.
+	4. products.csv holds the details about each product in a comma separated format. Each new line denotes new poducts.We can add or remove the products as per the need.
+	5. ProductServiceImplTest.java is the unit test case for the service layer.
 
 
 *******************************
@@ -39,6 +43,11 @@ This is a standalone Java application having  spring-boot-starter-web added as i
  	http://localhost:8080/products
  
 
+*******************************
+TODO
+
+Can have more test cases added gradually.
+Possibility to integrate with a database and implement SQL CRUD operations instead of using a CSV
 
 
 
